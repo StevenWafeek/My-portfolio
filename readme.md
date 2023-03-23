@@ -78,6 +78,8 @@ After you're finished please remove all the comments and instructions!
 
 - **[add html with header and feature ]**
 - **[add css file with styles and classes]**
+- **[add work section]**
+- **[add about myself section]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
