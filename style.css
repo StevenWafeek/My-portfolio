@@ -240,8 +240,6 @@ header nav {
 
 .About-myself {
   width: 375px;
-
-  /* height: 1260px; */
   background-color: #fff;
   border-radius: 0 76px 0 0;
 }
@@ -297,10 +295,18 @@ header nav {
   cursor: pointer;
   margin-top: 10px;
 }
+.About-me-top button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+.About-me-top button:active{
+  color: #fff;
+  background-color: #2230d2;
+}
 
 .About-me-icon {
-  margin-left: 24px;
-  width: 104.17px;
+  margin-left: 11px;
+  width: 145.17px;
   height: 20px;
   display: flex;
   justify-content: space-between;
