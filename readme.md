@@ -76,10 +76,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[add html with header and feature ]**
-- **[add css file with styles and classes]**
-- **[add work section]**
-- **[add about myself section]**
+- **[add Contact me section]**
+- **[add add changes and styles]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,6 +116,11 @@ Clone this repository to your desired folder:
 - Twitter: [steven_hakeem](https://twitter.com/steven_hakeem)
 - LinkedIn: [steven wafeek
 ](https://www.linkedin.com/in/steven-wafeek-b629341b6/)
+
+👤 **lincoln gibson**
+- GitHub: [lincoln1883](https://github.com/lincoln1883)
+- Twitter: [lincolngibson7](https://twitter.com/lincolngibson7)
+- LinkedIn: [lincoln-gibson](https://linkedin.com/in/lincoln-gibson)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
