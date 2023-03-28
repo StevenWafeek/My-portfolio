@@ -370,3 +370,64 @@ header nav {
 .Bottom-ul img {
   margin-right: 16px;
 }
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 779px;
+}
+
+.contact-header {
+  margin-top: 103px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-me p {
+  text-align: center;
+  margin-top: 12px;
+  width: 327px;
+  height: 137px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 327px;
+  height: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+  width: 327px;
+  align-items: start;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+
+}
+
+textarea {
+  width: 327px;
+  height: 170px;
+}
+
+/* .form-button {
+  display: inline-block;
+} */
