@@ -240,6 +240,8 @@ header nav {
   width: 375px;
   background-color: #fff;
   border-radius: 0 76px 0 0;
+  height: 1201px;
+
 }
 
 .About-me-top {
@@ -322,6 +324,7 @@ header nav {
 .Skill-list {
   padding: 25px;
   padding: 25px 25px 150px 25px;
+
 }
 
 .Top-ul {
@@ -372,11 +375,20 @@ header nav {
 }
 
 .contact-me {
+  background-image: url(picture/contact\ form\ shapes-mobile@2x.png);
+  background-color: #6070ff;
+  background-size: 60%;
+  background-position-x: 160px;
+  background-position-y: 16px;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 375px;
   height: 779px;
+  margin-top: -69px;
+  border-top-left-radius: 80px;
+  box-sizing: border-box;
 }
 
 .contact-header {
@@ -397,6 +409,11 @@ header nav {
   font-size: 20px;
   line-height: 28px;
   color: #EBEBFF;
+  margin-bottom: 52px;
+
+}
+.footer-img{
+  margin-top: 102px;
 }
 
 .contact-form {
@@ -418,16 +435,25 @@ form {
 }
 
 input {
-  width: 327px;
+  width: 312px;
   height: 48px;
-
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172B4D;
+  padding-left: 16px;
 }
 
 textarea {
-  width: 327px;
-  height: 170px;
+  width: 312px;
+  height: 155px;
+  border: 1px solid #CFD8DC;
+  color: #B3BAC5;
+  border-radius: 8px;
+  padding: 15px 0 0 15px;
+  font-weight: 400;
+font-size: 15px;
 }
 
-/* .form-button {
-  display: inline-block;
-} */
