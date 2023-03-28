@@ -412,9 +412,6 @@ header nav {
   margin-bottom: 52px;
 
 }
-.footer-img{
-  margin-top: 102px;
-}
 
 .contact-form {
   display: flex;
@@ -455,5 +452,36 @@ textarea {
   padding: 15px 0 0 15px;
   font-weight: 400;
 font-size: 15px;
+}
+.form-button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  padding: 12px;
+  width: 142px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  cursor: pointer;
+  margin-top: 9px;
+}
+.form-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.form-button:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+.footer-img{
+  margin-top: 98px;
 }
 
