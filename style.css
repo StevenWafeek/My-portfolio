@@ -563,7 +563,7 @@ body {
     justify-content: start;
   }
 
-  .Second_Works>.Tonic {
+  .Second_Works > .Tonic {
     grid-area: head;
     display: flex;
     justify-content: space-between;
