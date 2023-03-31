@@ -360,7 +360,7 @@ body {
     color: #fff;
     letter-spacing: 1px;
     width: 135px;
-
+    transition: 0.5s;
   }
 
   .See-project:active {
@@ -563,7 +563,7 @@ body {
     justify-content: start;
   }
 
-  .Second_Works > .Tonic {
+  .Second_Works>.Tonic {
     grid-area: head;
     display: flex;
     justify-content: space-between;
@@ -985,11 +985,13 @@ body {
     color: #396df2;
     cursor: pointer;
     margin-top: 9px;
+    transition: 0.5s;
   }
 
   .form-button:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
   }
 
   .form-button:active {
@@ -1099,11 +1101,13 @@ body {
     color: #396df2;
     cursor: pointer;
     margin-top: 9px;
+    transition: 0.5s;
   }
 
   .form-button:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
   }
 
   .form-button:active {
