@@ -352,11 +352,15 @@ body {
     border-radius: 8px;
     color: #396df2;
     cursor: pointer;
+    transition: 0.5s;
   }
 
   .See-project:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
+    width: 135px;
+    transition: 0.5s;
   }
 
   .See-project:active {
@@ -525,11 +529,14 @@ body {
     cursor: pointer;
     margin-left: 10%;
     margin-bottom: 155px;
+    transition: 0.5s;
   }
 
   .See-project:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
+    width: 135px;
   }
 
   .See-project:active {
@@ -650,11 +657,13 @@ body {
     color: #396df2;
     cursor: pointer;
     margin-top: 5px;
+    transition: 0.5s;
   }
 
   .About-me-top button:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
   }
 
   .About-me-top button:active {
@@ -792,11 +801,13 @@ body {
     color: #396df2;
     cursor: pointer;
     margin-top: 5px;
+    transition: 0.5s;
   }
 
   .About-me-top button:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
   }
 
   .About-me-top button:active {
@@ -974,11 +985,13 @@ body {
     color: #396df2;
     cursor: pointer;
     margin-top: 9px;
+    transition: 0.5s;
   }
 
   .form-button:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
   }
 
   .form-button:active {
@@ -1088,11 +1101,13 @@ body {
     color: #396df2;
     cursor: pointer;
     margin-top: 9px;
+    transition: 0.5s;
   }
 
   .form-button:hover {
     background-color: #6070ff;
     color: #fff;
+    letter-spacing: 1px;
   }
 
   .form-button:active {
