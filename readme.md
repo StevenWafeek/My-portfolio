@@ -122,6 +122,12 @@ Clone this repository to your desired folder:
 - Twitter: [lincolngibson7](https://twitter.com/lincolngibson7)
 - LinkedIn: [lincoln-gibson](https://linkedin.com/in/lincoln-gibson)
 
+👤 **Alvaro Iporre**
+
+- GitHub: [@alvaroiporre](https://github.com/alvaroiporre)
+- Twitter: [@alvaro.iporre](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alvaro-iporre-martiez-501533124/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
