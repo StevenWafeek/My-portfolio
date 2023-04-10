@@ -31,13 +31,14 @@
           <img src="picture/Enabled.png" alt="" />
         </div>
         <div class="header-menu">
-            <a href="#">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+          <span class="close">X</span>
+            <a class="links" id="Portfolio" href="#portfolio">Portfolio</a>
+            <a class="links" id="about" href="#aboutMe">About</a>
+            <a class="links" id="contact" href="#contactMe">Contact</a>
         </div>
       </nav>
     </header>
-    <section>
+    <section >
       <div class="headline">
         <h1>I'm Steven.<br> Glad to see you!</h1>
         <p>
@@ -71,7 +72,7 @@
         </ul>
       </div>
     </section>
-    <section class="project-cards">
+    <section id="portfolio" class="project-cards">
 
     <section class="Works">
       <div class="Tonic">
@@ -165,7 +166,7 @@
       <button class="See-project">See project</button>
     </section>
     </section>
-    <section class="About-myself">
+    <section id="aboutMe" class="About-myself">
       <div class="About-me-top">
         <h2>About Myself</h2>
         <p>
@@ -218,12 +219,12 @@
         </ul>
       </div>
     </section>
-    <section class="contact-me">
+    <section id="contactMe" class="contact-me">
 			<h2 class="contact-header">Contact me</h2>
 			<p>
 				If you have an application you are interested in developing, a feature
 				that you need built or a project that needs coding. I'love to help with
-				it! 
+				it!
 			</p>
 			<div class="contact-form">
 				<form action="https://formspree.io/f/mlekpene" method="post">
@@ -253,5 +254,6 @@
        <img src="picture/Shape.png" alt="">
       </div>
 		</section>
+    <script src="javascript.js"></script>
   </body>
 </html>
