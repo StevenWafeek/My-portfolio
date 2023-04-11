@@ -54,6 +54,7 @@ After you're finished please remove all the comments and instructions!
 
 - HTML
 - CSS
+- Javascript
 
 </a>
 
@@ -116,6 +117,12 @@ Clone this repository to your desired folder:
 - Twitter: [steven_hakeem](https://twitter.com/steven_hakeem)
 - LinkedIn: [steven wafeek
 ](https://www.linkedin.com/in/steven-wafeek-b629341b6/)
+
+👤 **Pablo Gonzalez**
+
+- GitHub: [@PabloEGonz](https://github.com/PabloEGonz)
+- Twitter: [@PabloEzGon](https://twitter.com/PabloEzGon)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/pablo-ezequiel-gonz%C3%A1lez-ramos-b9b854265)
 
 👤 **lincoln gibson**
 - GitHub: [lincoln1883](https://github.com/lincoln1883)
