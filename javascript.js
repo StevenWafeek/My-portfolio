@@ -129,10 +129,10 @@ form.addEventListener('submit', (event) => {
       message.innerText = 'The email address must be in lowercase.the form is not sent.';
       form.insertBefore(message, submit);
       errorFlag = true;
-      // setTimeout(() => {
-      //   message.remove();
-      //   errorFlag = false;
-      // }, 4000);
+      setTimeout(() => {
+        message.remove();
+        errorFlag = false;
+      }, 4000);
     }
   } else {
     form.submit();
