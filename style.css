@@ -1249,7 +1249,7 @@ body {
     position: fixed;
     right: 10%;
     bottom: 0;
-    color: red;
+    color: rgb(179, 3, 3);
     width: 150px;
     font-size: 14px;
   }
@@ -1368,6 +1368,14 @@ body {
     padding: 15px 0 0 15px;
     font-weight: 400;
     font-size: 15px;
+  }
+  .error {
+    position: fixed;
+    right: 17%;
+    bottom: 86px;
+    color: rgb(179, 3, 3);
+    width: 265px;
+    font-size: 13px;
   }
 
   .form-button {
