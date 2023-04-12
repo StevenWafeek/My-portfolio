@@ -1290,6 +1290,7 @@ body {
     margin-top: 98px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .contact-me {
     background-image: url(picture/contact\ form\ background\ shapes@2x.png);
@@ -1410,4 +1411,3 @@ body {
     background-color: #2230d2;
   }
 }
-
