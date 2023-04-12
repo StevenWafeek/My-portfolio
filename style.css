@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -1243,6 +1243,15 @@ body {
     padding: 15px 0 0 15px;
     font-weight: 400;
     font-size: 15px;
+  }
+
+  .error {
+    position: fixed;
+    right: 10%;
+    bottom: 0;
+    color: red;
+    width: 150px;
+    font-size: 14px;
   }
 
   .form-button {
