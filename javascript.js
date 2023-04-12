@@ -123,11 +123,11 @@ form.addEventListener('submit',function(event){
   const emailValue = email.value ;
   if(emailValue.toLowerCase() !== emailValue ){
     const message = document.createElement('h4');
-    message.classList.add('eror')
+    message.classList.add('error')
     message.innerText = 'The email address must be in lowercase.the form is not sent.';
     form.insertBefore(message, submit);
   } else {
     form.submit();
   }
 });
-message.classList.remove('eror');
+
