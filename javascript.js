@@ -113,3 +113,21 @@ const Closed = document.getElementById('close-me');
 Closed.addEventListener('click', () => {
   fullSection.classList.remove('openMe');
 });
+
+const form = document.querySelector(".form");
+const submit = document.querySelector(".form-button");
+
+form.addEventListener('submit',function(event){
+  event.preventDefault();
+  const email = document.querySelector('.email')
+  const emailValue = email.value ;
+  if(emailValue.toLowerCase() !== emailValue ){
+    const message = document.createElement('h4');
+    message.classList.add('eror')
+    message.innerText = 'The email address must be in lowercase.the form is not sent.';
+    form.insertBefore(message, submit);
+  } else {
+    form.submit();
+  }
+});
+message.classList.remove('eror');
