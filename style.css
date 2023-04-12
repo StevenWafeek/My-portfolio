@@ -413,6 +413,92 @@ body {
     background-color: #2230d2;
   }
 
+  .See-project.displayMe {
+    display: none;
+  }
+
+  .works-card {
+    display: none;
+  }
+
+  .works-card.openMe {
+    width: 100%;
+    height: 100%;
+    background-color: #494949b0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    z-index: 99;
+  }
+
+  #close-me {
+    display: flex;
+    margin-bottom: -26px;
+    cursor: pointer;
+    justify-content: flex-end;
+  }
+
+  .popup-Works {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 293px;
+    margin-left: 2%;
+    padding: 23px 25px;
+    height: 613px;
+    margin-top: 6px;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .popup-Works h2 {
+    width: 65%;
+  }
+
+  .popup-Works .mobile-img {
+    display: block;
+    width: 100%;
+    height: 90%;
+  }
+
+  .popup-Works .desktop-img {
+    display: none;
+  }
+
+  .popup-Works button {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    justify-content: center;
+    width: 130px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    cursor: pointer;
+  }
+
+  .popup-Works .Tonic-ul {
+    margin: 9px 0;
+  }
+
+  .popup-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .popup-buttons img {
+    margin-left: 5px;
+  }
+
   .Second_Works {
     display: grid;
     width: 295px;
@@ -609,6 +695,19 @@ body {
     justify-content: start;
   }
 
+  .popup-project-desk {
+    grid-area: head;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: stretch;
+    grid-column-start: 6;
+    grid-row-end: 6;
+  }
+
   .Second_Works > .Tonic {
     grid-area: head;
     display: flex;
@@ -643,6 +742,139 @@ body {
     line-height: 44px;
     margin-top: 38px;
     margin-left: 10%;
+  }
+
+  .works-card {
+    display: none;
+  }
+
+  .works-card.openMe {
+    width: 100%;
+    height: 100%;
+    background-color: #494949b0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    overflow: scroll;
+    z-index: 99;
+  }
+
+  #close-me {
+    display: flex;
+    margin-bottom: -32px;
+    cursor: pointer;
+    font-size: 28px;
+    justify-content: flex-end;
+    color: #67798e;
+  }
+
+  .popup-Works {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 2%;
+    padding: 22px 25px;
+    height: 900px;
+    margin-top: 6px;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .popup-Works h2 {
+    width: 42%;
+    font-size: 40px;
+  }
+
+  .popup-Works .mobile-img {
+    display: none;
+  }
+
+  .popup-Works .canopy {
+    display: flex;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51%;
+    align-items: center;
+    margin-left: 0%;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .popup-Works .desktop-img {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    transform: translateY(-28%);
+  }
+
+  .popup-Works button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    justify-content: center;
+    padding: 10px;
+    width: 145px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    cursor: pointer;
+  }
+
+  .popup-Works .Tonic-ul {
+    display: flex;
+    justify-content: flex-start;
+    width: 23%;
+    list-style-type: none;
+    color: #4758f3;
+    margin: -200px 0 13px 73%;
+  }
+
+  .popup-Works .Tonic-paragraph {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #344563;
+    margin-bottom: 54px;
+    margin-left: 10%;
+    width: 40%;
+    margin-right: 50%;
+  }
+
+  .popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    flex-direction: row-reverse;
+    margin-left: 70%;
+    padding-bottom: 90px;
+  }
+
+  .popup-buttons img {
+    margin-left: 5px;
+  }
+
+  .popup-Works .Tonic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 586px;
+    flex-wrap: wrap;
+    grid-row-end: 6;
+    margin-top: -32px;
+    align-items: center;
+    overflow: hidden;
   }
 }
 
@@ -1159,9 +1391,5 @@ body {
   .form-button:active {
     color: #fff;
     background-color: #2230d2;
-  }
-
-  .footer-img {
-    margin-top: 98px;
   }
 }
