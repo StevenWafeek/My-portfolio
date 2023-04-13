@@ -148,7 +148,6 @@ email.addEventListener('input', () => {
 if (localStorage.getItem('emailValue')) {
   email.value = localStorage.getItem('emailValue');
 }
-
 const myName = document.querySelector('.name');
 myName.addEventListener('input', () => {
   const myNameValue = myName.value;
