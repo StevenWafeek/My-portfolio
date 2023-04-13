@@ -157,3 +157,12 @@ myName.addEventListener('input', () => {
 if (localStorage.getItem('myNameValue')) {
   myName.value = localStorage.getItem('myNameValue');
 }
+const textArea = document.querySelector('.textarea');
+textArea.addEventListener('input', () => {
+  const textValue = textArea.value;
+  localStorage.setItem('textValue', textValue);
+});
+
+if (localStorage.getItem('textValue')) {
+  textArea.value = localStorage.getItem('textValue');
+}
