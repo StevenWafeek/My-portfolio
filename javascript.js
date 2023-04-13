@@ -138,3 +138,13 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const email = document.querySelector('.email');
+email.addEventListener('input', () => {
+  const emailValue = email.value;
+  localStorage.setItem('emailValue', emailValue);
+});
+
+if (localStorage.getItem('emailValue')) {
+  email.value = localStorage.getItem('emailValue');
+}
