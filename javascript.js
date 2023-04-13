@@ -138,3 +138,31 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+const email = document.querySelector('.email');
+email.addEventListener('input', () => {
+  const emailValue = email.value;
+  localStorage.setItem('emailValue', emailValue);
+});
+
+if (localStorage.getItem('emailValue')) {
+  email.value = localStorage.getItem('emailValue');
+}
+const myName = document.querySelector('.name');
+myName.addEventListener('input', () => {
+  const myNameValue = myName.value;
+  localStorage.setItem('myNameValue', myNameValue);
+});
+
+if (localStorage.getItem('myNameValue')) {
+  myName.value = localStorage.getItem('myNameValue');
+}
+const textArea = document.querySelector('.textarea');
+textArea.addEventListener('input', () => {
+  const textValue = textArea.value;
+  localStorage.setItem('textValue', textValue);
+});
+
+if (localStorage.getItem('textValue')) {
+  textArea.value = localStorage.getItem('textValue');
+}
