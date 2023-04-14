@@ -149,12 +149,12 @@ if (localStorage.getItem('emailValue')) {
   email.value = localStorage.getItem('emailValue');
 }
 const myName = document.querySelector('.name');
-myName.addEventListener('input', () => {
+myName.addEventListener('onclick', () => {
   const myNameValue = myName.value;
   localStorage.setItem('myNameValue', myNameValue);
 });
 
-if (localStorage.getItem('myNameValue')) {
+if (('myNameValue')) {
   myName.value = localStorage.getItem('myNameValue');
 }
 const textArea = document.querySelector('.textarea');
