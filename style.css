@@ -200,11 +200,18 @@ body {
     padding: 0 260px 0 260px;
   }
 
-  .headline h2 {
+  .headline h2{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     padding: 10px 260px;
+    color: #7f8cff;
+  }
+
+  .headline h2 a{
+    text-decoration: none;
+  }
+  .headline h2 a:visited{
     color: #7f8cff;
   }
 
@@ -256,6 +263,13 @@ body {
     font-size: 16px;
     line-height: 24px;
     margin: 12px 24px;
+    color: #7f8cff;
+  }
+
+  .headline h2 a{
+    text-decoration: none;
+  }
+  .headline h2 a:visited{
     color: #7f8cff;
   }
 
@@ -1014,6 +1028,7 @@ body {
 
   .Bottom-ul img {
     margin-right: 16px;
+    width: 50px;
   }
 }
 
@@ -1410,4 +1425,13 @@ body {
     color: #fff;
     background-color: #2230d2;
   }
+}
+.testings{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+.Testopen{
+  display: block;
+  max-height: 320px;
 }
