@@ -8,21 +8,21 @@ myOpen.onclick = () => {
   myOpen.classList.add('display');
 };
 myClose.onclick = () => {
-  this.parentElement.classList.remove('open');
+  nav.classList.remove('open');
   myOpen.classList.remove('display');
 };
 myLinks.onclick = () => {
-  this.parentElement.classList.remove('open');
+  nav.classList.remove('open');
   myOpen.classList.remove('display');
 };
 const MidLink = document.getElementById('about');
 MidLink.addEventListener('click', () => {
-  this.parentElement.classList.remove('open');
+  nav.classList.remove('open');
   myOpen.classList.remove('display');
 });
 const LastLink = document.getElementById('contact');
 LastLink.addEventListener('click', () => {
-  this.parentElement.classList.remove('open');
+  nav.classList.remove('open');
   myOpen.classList.remove('display');
 });
 const projectDetails = [
@@ -166,3 +166,18 @@ textArea.addEventListener('input', () => {
 if (localStorage.getItem('textValue')) {
   textArea.value = localStorage.getItem('textValue');
 }
+
+function initializeDropdown(dropdownToggle, dropdownContent) {
+  dropdownToggle.addEventListener('click', () => {
+    dropdownContent.classList.toggle('Testopen');
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const languagesDropdownToggle = document.querySelector('.Languages');
+  const languagesDropdownContent = document.querySelector('.testings');
+
+  if (languagesDropdownToggle && languagesDropdownContent) {
+    initializeDropdown(languagesDropdownToggle, languagesDropdownContent);
+  }
+});
