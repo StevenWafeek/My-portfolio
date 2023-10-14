@@ -27,53 +27,80 @@ LastLink.addEventListener('click', () => {
 });
 const projectDetails = [
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImageMobile: './picture/Snapshoot Portfolio.png',
-    featuredImageDesktop: './picture/Snapshoot Portfolio desktop.png',
-    technologies: 'HTML , CSS , JavaScript',
+    name: 'Space travel',
+    description: 'Pair programming project using Kanban to divide the task, Language : React, Redux, JavaScript, CSS.',
+    featuredImageMobile: './picture/1687482603881.jpg',
+    featuredImageDesktop: './picture/1687482603881.jpg',
+    technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#1',
     linkLive: '#',
-    linkSource: '#',
+    linkSource: 'https://github.com/enmanuelbayen/space-Travelers-Hub',
   },
   {
-    name: 'Multi-Stories',
-    description: 'A selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImageMobile: './picture/Snapshoot Portfolio (1).png',
-    featuredImageDesktop: './picture/Snapshoot Portfolio (3).png',
-    technologies: 'HTML , CSS , JavaScript',
+    name: 'Book Store',
+    description: 'A web application for storing your book collection and tracking your progress.This project is built using HTML, CSS, JavaScript, and React',
+    featuredImageMobile: './picture/1687482720771.jpg',
+    featuredImageDesktop: './picture/1687482720771.jpg',
+    technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#2',
     linkLive: '#',
-    linkSource: '#',
+    linkSource: 'https://github.com/StevenWafeek/Bookstore',
   },
   {
-    name: 'Tonic',
-    description: 'A selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImageMobile: './picture/Snapshoot Portfolio (2).png',
-    featuredImageDesktop: './picture/Snapshoot Portfolio 4.png',
-    technologies: 'HTML , CSS , JavaScript',
+    name: 'Math Magicians',
+    description: 'A web app for mathematical calculations and motivational advice, it offers both math solutions and inspirational quotes through an API. Built with HTML, CSS, JavaScript, and React.',
+    featuredImageMobile: './picture/Screenshot 2023-10-11 170712.jpg',
+    featuredImageDesktop: './picture/Screenshot 2023-10-11 170712.jpg',
+    technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#3',
     linkLive: '#',
-    linkSource: '#',
+    linkSource: 'https://github.com/StevenWafeek/math-magicians',
   },
   {
-    name: 'Multi-Stories',
-    description: 'A selection of privately personalized reads; no accounts or sign-ups required.',
-    featuredImageMobile: './picture/Snapshoot Portfolio (3).png',
-    featuredImageDesktop: './picture/Snapshoot Portfolio (1).png',
-    technologies: 'HTML , CSS , JavaScript',
+    name: 'Pokemon List',
+    description: 'A web app that displays a list of Pokémon along with their powers and speed from two APIs. built with HTML, CSS, JavaScript, and React.',
+    featuredImageMobile: './picture/Screenshot 2023-10-11 170906.jpg',
+    featuredImageDesktop: './picture/Screenshot 2023-10-11 170906.jpg',
+    technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#4',
     linkLive: '#',
-    linkSource: '#',
+    linkSource: 'https://github.com/StevenWafeek/metrics-webapp-capstone',
   },
 
 ];
 const root = document.getElementById('portfolio');
+const popup = document.querySelector('.popup-Works');
 for (let i = 0; i < projectDetails.length; i += 1) {
+  popup.innerHTML = `
+  <span id="close-me">x</span>
+  <h2>${projectDetails[i].name}</h2>
+  <div class="canopy">
+    <ul>
+      <li class="First-line">CANOPY</li>
+      <li class="Desktop-first-line">CANOPY</li>
+      <li>Front End Dev</li>
+      <li>2023</li>
+    </ul>
+  </div>
+  <div class="Tonic">
+    <img src="${projectDetails[i].featuredImageMobile}" alt="" class="mobile-img">
+    <img src="${projectDetails[i].featuredImageDesktop}" alt="" class="desktop-img">
+  </div>
+  <p class="Tonic-paragraph">${projectDetails[i].description}</p>
+  <ul class="Tonic-ul">
+    <li>${projectDetails[i].technologies}</li>
+  </ul>
+  <div class="popup-buttons">
+    <button >See live <img src="./picture/live-icon.png" alt="live project"></button>
+    <button ><a class="Links" href="${projectDetails[i].linkSource}" target="_blank">See source</a></button>
+  </div>
+`;
+
+
   root.innerHTML += `
 <section class="Works">
-<div class="${i % 2 === true ? 'Tonic' : 'popup-project-desk'}">
-<img src="${projectDetails[i].featuredImageMobile}" class="mobile-img">
+  <div class="${i % 2 === true ? 'Tonic' : 'popup-project-desk'}">
+    <img src="${projectDetails[i].featuredImageMobile}" class="mobile-img">
     <img src="${projectDetails[i].featuredImageDesktop}" alt="" class="desktop-img">
   </div>
   <h2>${projectDetails[i].name}</h2>
@@ -81,20 +108,19 @@ for (let i = 0; i < projectDetails.length; i += 1) {
     <ul>
       <li class="First-line">CANOPY</li>
       <li class="Desktop-first-line">CANOPY</li>
-      <li>Back End Dev</li>
-      <li>2015</li>
+      <li>Front End Dev</li>
+      <li>2023</li>
     </ul>
   </div>
-  <p class="Tonic-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+  <p class="Tonic-paragraph">${projectDetails[i].description}</p>
   <ul class="Tonic-ul">
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
-    </ul>
+  </ul>
   <button class="See-project">See project</button>
-
-  </section>
-  `;
+</section>
+`;
 }
 
 const OpenProject = document.querySelectorAll('.See-project');
@@ -106,6 +132,8 @@ for (let i = 0; i < OpenProject.length; i += 1) {
     document.querySelector('.works-card h2').innerText = projectDetails[i].name;
     document.querySelector('.mobile-img').src = projectDetails[i].featuredImageMobile;
     document.querySelector('.desktop-img').src = projectDetails[i].featuredImageDesktop;
+    document.querySelector('.Tonic-paragraph').innerText = projectDetails[i].description;
+    document.querySelector('.Links').href = projectDetails[i].linkSource;
   };
 }
 
@@ -180,4 +208,18 @@ document.addEventListener('DOMContentLoaded', () => {
   if (languagesDropdownToggle && languagesDropdownContent) {
     initializeDropdown(languagesDropdownToggle, languagesDropdownContent);
   }
+
+  const frameworksDropdownToggle = document.querySelector('.Frameworks');
+  const frameworksDropdownContent = document.querySelector('.testing');
+  if (frameworksDropdownToggle && frameworksDropdownContent) {
+    initializeDropdown(frameworksDropdownToggle, frameworksDropdownContent);
+  }
+
 });
+
+
+  // const frameworksDropdownToggle = document.querySelector('.Top-li:contains("Frameworks")');
+  // const frameworksDropdownContent = document.querySelector('.Top-li:contains("Frameworks") .testings');
+  // if (frameworksDropdownToggle && frameworksDropdownContent) {
+  //   initializeDropdown(frameworksDropdownToggle, frameworksDropdownContent);
+  // }
