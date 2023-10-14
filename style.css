@@ -200,7 +200,7 @@ body {
     padding: 0 260px 0 260px;
   }
 
-  .headline h2{
+  .headline h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -208,10 +208,16 @@ body {
     color: #7f8cff;
   }
 
-  .headline h2 a{
+  .Icon a {
+    color: #505f79;
+    font-size: 24px;
+  }
+
+  .headline h2 a {
     text-decoration: none;
   }
-  .headline h2 a:visited{
+
+  .headline h2 a:visited {
     color: #7f8cff;
   }
 
@@ -223,11 +229,6 @@ body {
     justify-content: space-between;
     color: #505f79;
     list-style-type: none;
-  }
-
-  .Icon a {
-    color: #505f79;
-    font-size: 24px;
   }
 }
 
@@ -266,10 +267,15 @@ body {
     color: #7f8cff;
   }
 
-  .headline h2 a{
+  .Icon a {
+    color: #505f79;
+  }
+
+  .headline h2 a {
     text-decoration: none;
   }
-  .headline h2 a:visited{
+
+  .headline h2 a:visited {
     color: #7f8cff;
   }
 
@@ -281,10 +287,6 @@ body {
     justify-content: space-between;
     color: #505f79;
     list-style-type: none;
-  }
-
-  .Icon a {
-    color: #505f79;
   }
 }
 
@@ -951,8 +953,9 @@ body {
     margin-top: 5px;
     transition: 0.5s;
   }
-  .About-me-top button a{
-    text-decoration:none;
+
+  .About-me-top button a {
+    text-decoration: none;
   }
 
   .About-me-top button:hover {
@@ -1102,8 +1105,9 @@ body {
     transition: 0.5s;
     text-decoration: none;
   }
-  .About-me-top button a{
-    text-decoration:none;
+
+  .About-me-top button a {
+    text-decoration: none;
   }
 
   .About-me-top button:hover {
@@ -1436,17 +1440,20 @@ body {
     background-color: #2230d2;
   }
 }
-.testings{
+
+.testings {
   max-height: 0;
   overflow: hidden;
   transition: max-height 1s ease-in-out;
 }
-.testing{
+
+.testing {
   max-height: 0;
   overflow: hidden;
   transition: max-height 1s ease-in-out;
 }
-.Testopen{
+
+.Testopen {
   display: block;
   max-height: 320px;
 }

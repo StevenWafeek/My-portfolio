@@ -96,7 +96,6 @@ for (let i = 0; i < projectDetails.length; i += 1) {
   </div>
 `;
 
-
   root.innerHTML += `
 <section class="Works">
   <div class="${i % 2 === true ? 'Tonic' : 'popup-project-desk'}">
@@ -214,12 +213,4 @@ document.addEventListener('DOMContentLoaded', () => {
   if (frameworksDropdownToggle && frameworksDropdownContent) {
     initializeDropdown(frameworksDropdownToggle, frameworksDropdownContent);
   }
-
 });
-
-
-  // const frameworksDropdownToggle = document.querySelector('.Top-li:contains("Frameworks")');
-  // const frameworksDropdownContent = document.querySelector('.Top-li:contains("Frameworks") .testings');
-  // if (frameworksDropdownToggle && frameworksDropdownContent) {
-  //   initializeDropdown(frameworksDropdownToggle, frameworksDropdownContent);
-  // }
