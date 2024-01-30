@@ -132,6 +132,7 @@ body {
 
   .burger img {
     margin-right: 12px;
+    cursor: pointer;
   }
 
   .burger.display {
@@ -144,6 +145,7 @@ body {
     right: 29px;
     top: 10px;
     font-size: 21px;
+    cursor: pointer;
   }
 }
 
