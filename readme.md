@@ -1,31 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -46,7 +20,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio project] <a name="about-project"></a>
 
-> My Portfolio project 
+> My Portfolio project
 
 **[My Portfolio]** is a html and css project that contain a portfolio of me and with some colors and backgrounds
 
@@ -59,7 +33,6 @@ After you're finished please remove all the comments and instructions!
 </a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>Client</summary>
@@ -79,7 +52,6 @@ After you're finished please remove all the comments and instructions!
 
 - **[add Contact me section]**
 - **[add add changes and styles]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,9 +76,6 @@ Clone this repository to your desired folder:
 `git clone`
 `https://github.com/StevenWafeek/My-portfolio`
 
-
-
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -116,18 +85,7 @@ Clone this repository to your desired folder:
 - GitHub: [StevenWafeek](https://github.com/StevenWafeek)
 - Twitter: [steven_hakeem](https://twitter.com/steven_hakeem)
 - LinkedIn: [steven wafeek
-](https://www.linkedin.com/in/steven-wafeek-b629341b6/)
-
-👤 **Pablo Gonzalez**
-
-- GitHub: [@PabloEGonz](https://github.com/PabloEGonz)
-- Twitter: [@PabloEzGon](https://twitter.com/PabloEzGon)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/pablo-ezequiel-gonz%C3%A1lez-ramos-b9b854265)
-
-👤 **lincoln gibson**
-- GitHub: [lincoln1883](https://github.com/lincoln1883)
-- Twitter: [lincolngibson7](https://twitter.com/lincolngibson7)
-- LinkedIn: [lincoln-gibson](https://linkedin.com/in/lincoln-gibson)
+  ](https://www.linkedin.com/in/steven-wafeek-b629341b6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,10 +93,9 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
--  **[Make a profissional portfolio]**
--  **[Make more details ]**
--  **[work Efficiency]**
+- **[Make a profissional portfolio]**
+- **[Make more details ]**
+- **[work Efficiency]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
