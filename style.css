@@ -232,10 +232,6 @@ body {
     color: #eb3a34; 
   }
 
-  .headline h2 a:visited {
-    color: #7f8cff;
-  }
-
   .Icon {
     padding: 0 260px 0 260px;
     width: 178.17px;
@@ -300,10 +296,6 @@ body {
 
   .headline h2 a:hover {
     color: #eb3a34; 
-  }
-
-  .headline h2 a:visited {
-    color: #7f8cff;
   }
 
   .Icon {
