@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
 
@@ -169,6 +170,11 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    transition: font-size 0.3s ease-in-out;
+  }
+
+  .header-menu a:hover{
+    font-size: 20px;
   }
 
   .close {
@@ -217,6 +223,13 @@ body {
 
   .headline h2 a {
     text-decoration: none;
+    color: #7f8cff;
+    transition: color 0.3s ease;
+    display: inline-block;
+  }
+
+  .headline h2 a:hover {
+    color: #eb3a34; 
   }
 
   .headline h2 a:visited {
@@ -232,16 +245,20 @@ body {
     color: #505f79;
     list-style-type: none;
   }
+
+  .Icon a:hover{
+  color: red;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .headline {
     width: 100%;
     height: 624px;
-    background: url("picture/header-shapes mobile.png");
+    background: url("picture/Header\ bg@2x.png");
     background-color: #fff;
     border-radius: 0 0 0 76px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 
@@ -273,8 +290,16 @@ body {
     color: #505f79;
   }
 
+  .Icon a:hover{
+    color: red;
+  }
+
   .headline h2 a {
     text-decoration: none;
+  }
+
+  .headline h2 a:hover {
+    color: #eb3a34; 
   }
 
   .headline h2 a:visited {
@@ -303,7 +328,7 @@ body {
     align-items: center;
     justify-content: end;
     margin: 0 20px;
-    padding: 20px;
+    padding: 4%;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
   }
@@ -372,7 +397,7 @@ body {
   }
 
   .Tonic-paragraph {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0;
@@ -500,6 +525,7 @@ body {
     background-color: transparent;
     border: 1px solid #6070ff;
     border-radius: 8px;
+    margin-left: 17px;
     color: #396df2;
     cursor: pointer;
   }
@@ -824,10 +850,7 @@ body {
   }
 
   .popup-Works .desktop-img {
-    display: block;
-    width: 100%;
-    height: fit-content;
-    transform: translateY(-28%);
+    height: 390px;
   }
 
   .popup-Works button {
@@ -874,9 +897,9 @@ body {
   .popup-buttons {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 35%;
     flex-direction: row-reverse;
-    margin-left: 70%;
+    margin-left: 62%;
     padding-bottom: 90px;
   }
 
@@ -888,7 +911,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 586px;
+    height: 520px;
     flex-wrap: wrap;
     grid-row-end: 6;
     margin-top: -32px;
@@ -910,6 +933,7 @@ body {
     height: 31%;
     flex-direction: column;
     justify-content: space-between;
+    gap: 15px;
   }
 
   .About-me-top h2 {
@@ -987,6 +1011,10 @@ body {
     color: #505f79;
   }
 
+  .About-me-icon i:hover {
+    color: red;
+  }
+
   .Skill-list {
     padding: 25px;
     padding: 25px 25px 150px 25px;
@@ -1060,6 +1088,7 @@ body {
     align-content: space-around;
     flex-direction: column;
     padding-left: 10%;
+    gap: 8px;
   }
 
   .About-me-top h2 {
@@ -1139,6 +1168,10 @@ body {
     color: #505f79;
   }
 
+  .About-me-icon i:hover {
+    color: red;
+  }
+
   .Skill-list {
     width: 40%;
     padding: 25px;
@@ -1173,6 +1206,7 @@ body {
     align-items: center;
     padding: 12px;
     gap: 12px;
+    flex-wrap: wrap;
   }
 
   .Bottom-li {
@@ -1311,6 +1345,7 @@ body {
     background-color: #6070ff;
     color: #fff;
     letter-spacing: 1px;
+    border: 1px solid white;
   }
 
   .form-button:active {
@@ -1436,6 +1471,7 @@ body {
     background-color: #6070ff;
     color: #fff;
     letter-spacing: 1px;
+    border: 1px solid white;
   }
 
   .form-button:active {
@@ -1455,8 +1491,14 @@ body {
   overflow: hidden;
   transition: max-height 1s ease-in-out;
 }
+.My-Skills {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
 
 .Testopen {
-  display: block;
-  max-height: 320px;
+  max-height: 500px; 
+  height: auto;
+  transition: max-height 0.5s ease-in-out, height 0.5s ease-in-out;
 }
