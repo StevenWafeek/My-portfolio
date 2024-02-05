@@ -27,13 +27,13 @@ LastLink.addEventListener('click', () => {
 });
 const projectDetails = [
   {
-    name: 'Space travel',
-    description: 'Pair programming project using Kanban to divide the task, Language : React, Redux, JavaScript, CSS.',
+    name: 'Space Travel',
+    description: 'Space Travel is a React-Redux application consists of Rockets, Missions, Dragon, and the My Profile section',
     featuredImageMobile: './picture/1687482603881.jpg',
     featuredImageDesktop: './picture/1687482603881.jpg',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#1',
-    linkLive: '#',
+    linkLive: 'https://space-travelers-hub-snowy.vercel.app/',
     linkSource: 'https://github.com/enmanuelbayen/space-Travelers-Hub',
   },
   {
@@ -43,7 +43,7 @@ const projectDetails = [
     featuredImageDesktop: './picture/1687482720771.jpg',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#2',
-    linkLive: '#',
+    linkLive: 'https://incredible-eclair-ea9cda.netlify.app',
     linkSource: 'https://github.com/StevenWafeek/Bookstore',
   },
   {
@@ -53,7 +53,7 @@ const projectDetails = [
     featuredImageDesktop: './picture/Screenshot 2023-10-11 170712.jpg',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#3',
-    linkLive: '#',
+    linkLive: 'https://polite-cendol-9a4954.netlify.app',
     linkSource: 'https://github.com/StevenWafeek/math-magicians',
   },
   {
@@ -63,7 +63,7 @@ const projectDetails = [
     featuredImageDesktop: './picture/Screenshot 2023-10-11 170906.jpg',
     technologies: 'HTML , CSS , JavaScript , React',
     buttons: 'projectss#4',
-    linkLive: '#',
+    linkLive: 'https://fantastic-faloodeh-f20cab.netlify.app/',
     linkSource: 'https://github.com/StevenWafeek/metrics-webapp-capstone',
   },
 
@@ -91,7 +91,7 @@ for (let i = 0; i < projectDetails.length; i += 1) {
     <li>${projectDetails[i].technologies}</li>
   </ul>
   <div class="popup-buttons">
-    <button >See live <img src="./picture/live-icon.png" alt="live project"></button>
+    <button ><a class="Demo" href="${projectDetails[i].linkLive}" target="_blank">See live <img src="./picture/live-icon.png" alt="live project"></button>
     <button ><a class="Links" href="${projectDetails[i].linkSource}" target="_blank">See source</a></button>
   </div>
 `;
@@ -133,6 +133,7 @@ for (let i = 0; i < OpenProject.length; i += 1) {
     document.querySelector('.desktop-img').src = projectDetails[i].featuredImageDesktop;
     document.querySelector('.Tonic-paragraph').innerText = projectDetails[i].description;
     document.querySelector('.Links').href = projectDetails[i].linkSource;
+    document.querySelector('.Demo').href = projectDetails[i].linkLive;
   };
 }
 
@@ -212,5 +213,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const frameworksDropdownContent = document.querySelector('.testing');
   if (frameworksDropdownToggle && frameworksDropdownContent) {
     initializeDropdown(frameworksDropdownToggle, frameworksDropdownContent);
+  }
+
+  const skillsDropdownToggle = document.querySelector('.skills');
+  const skillsDropdownContent = document.querySelector('.My-Skills');
+  if (skillsDropdownToggle && skillsDropdownContent) {
+    initializeDropdown(skillsDropdownToggle, skillsDropdownContent);
   }
 });
