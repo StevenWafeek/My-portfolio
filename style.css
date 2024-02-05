@@ -173,7 +173,7 @@ body {
     transition: font-size 0.3s ease-in-out;
   }
 
-  .header-menu a:hover{
+  .header-menu a:hover {
     font-size: 20px;
   }
 
@@ -228,8 +228,12 @@ body {
     display: inline-block;
   }
 
+  .Icon a:hover {
+    color: red;
+  }
+
   .headline h2 a:hover {
-    color: #eb3a34; 
+    color: #eb3a34;
   }
 
   .Icon {
@@ -240,10 +244,6 @@ body {
     justify-content: space-between;
     color: #505f79;
     list-style-type: none;
-  }
-
-  .Icon a:hover{
-  color: red;
   }
 }
 
@@ -286,16 +286,16 @@ body {
     color: #505f79;
   }
 
-  .Icon a:hover{
-    color: red;
-  }
-
   .headline h2 a {
     text-decoration: none;
   }
 
+  .Icon a:hover {
+    color: red;
+  }
+
   .headline h2 a:hover {
-    color: #eb3a34; 
+    color: #eb3a34;
   }
 
   .Icon {
@@ -999,6 +999,10 @@ body {
     padding-bottom: 20px;
   }
 
+  .Top-li i {
+    color: #acb7c3;
+  }
+
   .About-me-icon i {
     color: #505f79;
   }
@@ -1027,10 +1031,6 @@ body {
     font-size: 20px;
     line-height: 24px;
     cursor: pointer;
-  }
-
-  .Top-li i {
-    color: #acb7c3;
   }
 
   .Bottom-ul {
@@ -1160,6 +1160,10 @@ body {
     color: #505f79;
   }
 
+  .Top-li i {
+    color: #acb7c3;
+  }
+
   .About-me-icon i:hover {
     color: red;
   }
@@ -1185,10 +1189,6 @@ body {
     font-size: 20px;
     line-height: 24px;
     cursor: pointer;
-  }
-
-  .Top-li i {
-    color: #acb7c3;
   }
 
   .Bottom-ul {
@@ -1483,6 +1483,7 @@ body {
   overflow: hidden;
   transition: max-height 1s ease-in-out;
 }
+
 .My-Skills {
   max-height: 0;
   overflow: hidden;
@@ -1490,7 +1491,7 @@ body {
 }
 
 .Testopen {
-  max-height: 500px; 
+  max-height: 500px;
   height: auto;
   transition: max-height 0.5s ease-in-out, height 0.5s ease-in-out;
 }
