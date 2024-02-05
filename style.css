@@ -935,9 +935,17 @@ body {
     color: #172b4d;
   }
 
-  .About-me-top p {
+  .AboutMe-info {
+    display: flex;
+    padding-left: 28px;
+    width: 80%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .AboutMe-info li {
     font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
     color: #344563;
   }
@@ -948,10 +956,6 @@ body {
     line-height: 24px;
     margin: 12px 0;
     color: #5868f0;
-  }
-
-  .About-me-top li {
-    font-size: 20px;
   }
 
   .About-me-top button {
@@ -989,7 +993,7 @@ body {
   }
 
   .About-me-icon {
-    margin-left: 11px;
+    margin-left: 20px;
     width: 145.17px;
     height: 20px;
     display: flex;
@@ -1005,6 +1009,7 @@ body {
 
   .About-me-icon i {
     color: #505f79;
+    font-size: 20px;
   }
 
   .About-me-icon i:hover {
@@ -1080,7 +1085,7 @@ body {
     align-content: space-around;
     flex-direction: column;
     padding-left: 10%;
-    gap: 8px;
+    gap: 16px;
   }
 
   .About-me-top h2 {
@@ -1090,7 +1095,7 @@ body {
     color: #172b4d;
   }
 
-  .About-me-top p {
+  .About-me-top ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -1103,10 +1108,6 @@ body {
     line-height: 24px;
     margin: 12px 0;
     color: #5868f0;
-  }
-
-  .About-me-top li {
-    font-size: 20px;
   }
 
   .About-me-top button {
@@ -1124,7 +1125,7 @@ body {
     border-radius: 8px;
     color: #396df2;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: -11px;
     margin-bottom: 90px;
     transition: 0.5s;
     text-decoration: none;
@@ -1158,6 +1159,7 @@ body {
 
   .About-me-icon i {
     color: #505f79;
+    font-size: 20px;
   }
 
   .Top-li i {
