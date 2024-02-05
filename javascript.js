@@ -27,8 +27,8 @@ LastLink.addEventListener('click', () => {
 });
 const projectDetails = [
   {
-    name: 'Space travel',
-    description: 'Pair programming project using Kanban to divide the task, Language : React, Redux, JavaScript, CSS.',
+    name: 'Space Travel',
+    description: 'Space Travel is a React-Redux application consists of Rockets, Missions, Dragon, and the My Profile section',
     featuredImageMobile: './picture/1687482603881.jpg',
     featuredImageDesktop: './picture/1687482603881.jpg',
     technologies: 'HTML , CSS , JavaScript , React',
@@ -212,5 +212,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const frameworksDropdownContent = document.querySelector('.testing');
   if (frameworksDropdownToggle && frameworksDropdownContent) {
     initializeDropdown(frameworksDropdownToggle, frameworksDropdownContent);
+  }
+
+  const skillsDropdownToggle = document.querySelector('.skills');
+  const skillsDropdownContent = document.querySelector('.My-Skills');
+  if (skillsDropdownToggle && skillsDropdownContent) {
+    initializeDropdown(skillsDropdownToggle, skillsDropdownContent);
   }
 });
