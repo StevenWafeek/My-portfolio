@@ -115,6 +115,17 @@ body {
     z-index: 9;
   }
 
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
   .header-menu a {
     color: #fff;
     flex-basis: 10px;
@@ -125,8 +136,9 @@ body {
     position: sticky;
     left: 7%;
     line-height: 13px;
+    animation: slideIn 0.5s forwards; 
   }
-
+  
   .burger {
     width: 50%;
     display: flex;
@@ -165,6 +177,18 @@ body {
     padding-right: 155px;
   }
 
+  @keyframes example {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
   .header-menu a {
     text-decoration: none;
     color: #344563;
@@ -172,12 +196,12 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    transition: font-size 0.3s ease-in-out;
   }
-
+  
   .header-menu a:hover {
-    font-size: 20px;
+    animation: example 0.5s infinite;
   }
+  
 
   .close {
     display: none;
@@ -325,6 +349,12 @@ body {
     padding: 4%;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+
+  .Works:hover {
+    width: 325px;
+    height: 560px;
   }
 
   .Tonic {
@@ -575,6 +605,12 @@ body {
     justify-items: stretch;
     align-items: center;
     justify-content: start;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+  
+  .Works:hover{
+    width: 85%;
+    height: 475px;
   }
 
   .Tonic {
