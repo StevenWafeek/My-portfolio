@@ -23,6 +23,7 @@ body {
     display: flex;
     width: 100%;
     height: 44px;
+    position: fixed;
   }
 
   header nav {
@@ -58,10 +59,11 @@ body {
   header {
     display: flex;
     width: 100%;
-    height: 120px;
+    height: 64px;
     background-color: #fff;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
   }
 
   header nav {
